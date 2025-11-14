@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 👈 elemento no começo, meio e fim */
+    padding: 0 20px;
+}
+
+.desconjuracao {
+    width: 100px;
+    height: 100px;
+}
+
+/* Centraliza o título VISUALMENTE */
+.titulo {
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;   /* 👈 FORÇA centralização */
+    transform: translateX(-50px); 
+    /* Ajuste fino porque a imagem tem tamanho */
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
