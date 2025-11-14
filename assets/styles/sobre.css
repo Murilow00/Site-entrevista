@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-/* HEADER */
+
 header {
     width: 100%;
     background-color: black;
@@ -55,7 +55,7 @@ header {
 }
 
 
-/* CONTAINER */
+
 .container {
     max-width: 900px;
     margin: 40px auto;
@@ -72,7 +72,7 @@ header {
     text-shadow: 0 0 10px #b30000;
 }
 
-/* Subtítulos e listas */
+
 .subtitulo {
     font-size: 24px;
     margin-top: 20px;
@@ -90,7 +90,7 @@ ul li {
     margin-bottom: 5px;
 }
 
-/* FOOTER */
+
 footer {
     margin-top: 50px;
     padding: 20px;
